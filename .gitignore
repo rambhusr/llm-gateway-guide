@@ -1,0 +1,7 @@
+.env
+.env.example
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+get_groq_models.py
