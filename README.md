@@ -34,7 +34,7 @@ Without a centralized gateway, managing multiple LLM providers directly introduc
 
 4. **Load Balancing:** Distribute traffic across multiple API keys, deployments, or model endpoints to avoid hitting rate limits.
 
-5. **In-Memory & Database Caching:** Cache repeated responses locally or via Redis to achieve sub-millisecond response times and cut API costs by 40–60%.
+5. **In-Memory & Database Caching:** Caching can significantly reduce latency and LLM API usage for repeated requests.
 
 6. **Cost Tracking & Observability:** Track per-request token consumption, calculate exact execution costs, and stream execution metrics to logging tools.
 
