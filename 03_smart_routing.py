@@ -14,7 +14,7 @@ model_list = [
     {
         "model_name": "smart-coding",                              # 👈 alias kept
         "litellm_params": {
-            "model": "gemini/gemini-2.5-flash",                                      # 👈 mapped to OpenAI instead
+            "model": "gemini/gemini-2.5-flash",                    # 👈 mapped to Gemini instead
             "api_key": os.getenv("GEMINI_API_KEY")
         }
     }
