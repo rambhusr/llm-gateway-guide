@@ -1,7 +1,5 @@
 # LLM Gateway Architecture & Hands-on Guide
 
-A comprehensive, production-ready reference project demonstrating how to build and operate an **LLM Gateway** using **LiteLLM** and **LangChain**.
-
 An **LLM Gateway** is a smart middleware layer sitting between your client applications and multiple LLM providers (such as OpenAI, Anthropic, Google Gemini, and Groq). Instead of writing custom integration logic for every provider, your application communicates with a single unified interface that handles routing, fallbacks, caching, cost tracking, and security guardrails.
 
 ---
